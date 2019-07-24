@@ -12,11 +12,11 @@ class School
   def grade(num)
     roster[num]
   end
-  def sorted 
+  def sort
     sorted = {}
     roster.each do |key, values|
       sorted[key] = values.sort
-    end
   end
     sorted
+  end
 end
